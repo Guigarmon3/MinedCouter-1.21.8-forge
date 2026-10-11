@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[58,)"
+license="All Rights Reserved"
+clientSideOnly=true
+
+[[mods]]
+modId="blockcounter"
+version="1.0.0"
+displayName="Block Counter"
+authors="You"
+description='''Compact HUD counter for blocks mined: world total and current session. Singleplayer only.'''
+
+[[dependencies.blockcounter]]
+    modId="forge"
+    mandatory=true
+    versionRange="[58,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.blockcounter]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.21.8,1.22)"
+    ordering="NONE"
+    side="BOTH"
